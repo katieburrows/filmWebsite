@@ -1,3 +1,21 @@
+body {
+    background: lightgray;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    width: 600px;
+    height: 200px;
+    text-align: center;
+    font-size: 18px;
+    margin: 0 auto;
+    margin-top: 45px;
+    margin-bottom: 40px;
+}
+
 footer {
     background: #2C3E50;
     color: white;
@@ -5,4 +23,13 @@ footer {
     padding-bottom: 20px;
     text-align: center;
     font-size: 15px;
+}
+
+#youtubeVideos {
+    margin-left: 108px;
+    margin-bottom: 45px;
+}
+
+.indexVideos {
+    margin-right: 15px;
 }
