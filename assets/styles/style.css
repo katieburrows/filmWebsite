@@ -17,6 +17,24 @@ h2 {
     margin-bottom: 40px;
 }
 
+
+
+/* .col-lg-2 {
+    display: inline;
+    
+} */
+
+
+#indexContainer {
+    margin-left: 0 auto;
+    padding: 50px;
+    
+}
+
+/* .indexVideos {
+    margin-right: 15px;
+} */
+
 footer {
     background: #2C3E50;
     color: white;
@@ -26,11 +44,18 @@ footer {
     font-size: 15px;
 }
 
-#youtubeVideos {
-    margin-left: 108px;
-    margin-bottom: 45px;
-}
+.video-container {
+        overflow:hidden;
+        padding-bottom:56.25%;
+        position:relative;
+        height:0;
+    }
+    .video-container iframe{
+        left:0;
+        top:0;
+        height:100%;
+        width:100%;
+        position:absolute;
+    }
 
-.indexVideos {
-    margin-right: 15px;
-}
+    
