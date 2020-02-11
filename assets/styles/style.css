@@ -8,13 +8,8 @@ h1 {
 }
 
 h2 {
-    width: 600px;
-    height: 200px;
-    text-align: center;
+    text-align: left;
     font-size: 18px;
-    margin: 0 auto;
-    margin-top: 10px;
-    margin-bottom: 40px;
 }
 
 
@@ -44,6 +39,15 @@ footer {
     font-size: 15px;
 }
 
+@media (max-width: 400px) {
+    h1 {
+        font-size: 24px;
+    }
+    h2 {
+        font-size: 16px;
+    }
+}
+
 .video-container {
         overflow:hidden;
         padding-bottom:56.25%;
@@ -56,6 +60,4 @@ footer {
         height:100%;
         width:100%;
         position:absolute;
-    }
-
-    
+    } 
