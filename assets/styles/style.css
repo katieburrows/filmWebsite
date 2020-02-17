@@ -38,19 +38,19 @@ footer {
 .scrolling-wrapper {
     display: flex;
     flex-wrap: nowrap;
-    margin-bottom: 80px;
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
 }
 
-    .scrolling-wrapper::-webkit-scrollbar {
-        display: none; }
+    /* .scrolling-wrapper::-webkit-scrollbar {
+        display: none; } */
 
     .card {
       flex: 0 0 auto;
       margin-right: 10px;
       padding: 0;
     }
+
 
 .video-container {
         overflow:hidden;
