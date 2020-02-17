@@ -30,14 +30,16 @@ h2 {
     margin-right: 15px;
 } */
 
-footer {
-    background: #2C3E50;
-    color: white;
+#stickyFooter {
+    background-color: #2C3E50;
+    text-align: center;
     padding-top: 20px;
     padding-bottom: 20px;
-    text-align: center;
+    color: white;
     font-size: 15px;
 }
+
+
 
 @media (max-width: 400px) {
     h1 {
@@ -61,3 +63,13 @@ footer {
         width:100%;
         position:absolute;
     } 
+
+    h1 {
+        font-family: 'Karla', sans-serif;
+    }
+    h2 {
+        font-family: 'Rubik', sans-serif;
+    }
+    p {
+        font-family: 'Rubik', sans-serif;
+    }
