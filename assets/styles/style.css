@@ -22,9 +22,11 @@ footer {
     margin-top: 20px;
     padding-top: 20px;
     padding-bottom: 20px;
-    text-align: center;
+    color: white;
     font-size: 15px;
 }
+
+
 
 @media (max-width: 400px) {
     h1 {
