@@ -12,27 +12,14 @@ h2 {
     font-size: 18px;
 }
 
-
-
-/* .col-lg-2 {
-    display: inline;
-    
-} */
-
-
 #indexContainer {
-    margin-left: 0 auto;
-    padding: 50px;
-    
+    padding: 15px;
 }
 
-/* .indexVideos {
-    margin-right: 15px;
-} */
-
-#stickyFooter {
-    background-color: #2C3E50;
-    text-align: center;
+footer {
+    background: #2C3E50;
+    color: white;
+    margin-top: 20px;
     padding-top: 20px;
     padding-bottom: 20px;
     color: white;
@@ -50,19 +37,26 @@ h2 {
     }
 }
 
+.scrolling-wrapper {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+    /* .scrolling-wrapper::-webkit-scrollbar {
+        display: none; } */
+
+    .card {
+      flex: 0 0 auto;
+      margin-right: 10px;
+      padding: 0;
+    }
+
+
 .video-container {
         overflow:hidden;
-        padding-bottom:56.25%;
-        position:relative;
-        height:0;
-    }
-    .video-container iframe{
-        left:0;
-        top:0;
-        height:100%;
-        width:100%;
-        position:absolute;
-    } 
+}
 
     h2 {
         font-family: 'Karla', sans-serif;
